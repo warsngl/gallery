@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 img {
-  @apply w-[300px] rounded-lg;
+  @apply h-[90vh] rounded-lg;
 }
 .main {
   @apply z-20 shadow-[10px_15px_10px_5px_rgba(0,0,0,0.3)];
@@ -33,9 +33,9 @@ img {
   @apply opacity-30 absolute;
 }
 .prev {
-  @apply left-[24%];
+  @apply left-0;
 }
 .next {
-  @apply right-[24%];
+  @apply right-0;
 }
 </style>

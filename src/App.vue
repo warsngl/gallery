@@ -15,8 +15,8 @@ export default {
 </script>
 
 <template lang="pug">
-router-link(to='/')
-  img.w-12(src='./assets/gallery.svg')
+//- router-link(to='/')
+//-   img.w-12(src='./assets/gallery.svg')
 .flex.flex-col.items-center.justify-center
   router-view
 </template>
